@@ -61,11 +61,10 @@
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
-  --bs-body-color: #212529;
-  --bs-body-bg: #fff;
-  --bs-border-width: 1px;
+  --bs-body-color: #fff; /* white */
+  --bs-body-bg: #212529; /* dark gray */  --bs-border-width: 1px;
   --bs-border-style: solid;
-  --bs-border-color: #dee2e6;
+  --bs-border-color: rgba(255, 255, 255, 0.175); /* light gray */
   --bs-border-color-translucent: rgba(0, 0, 0, 0.175);
   --bs-border-radius: 0.375rem;
   --bs-border-radius-sm: 0.25rem;
@@ -73,8 +72,8 @@
   --bs-border-radius-xl: 1rem;
   --bs-border-radius-2xl: 2rem;
   --bs-border-radius-pill: 50rem;
-  --bs-link-color: #0d6efd;
-  --bs-link-hover-color: #0a58ca;
+  --bs-link-color: #0dcaff; /* bright blue */
+  --bs-link-hover-color: #0a58ca; /* darker blue */
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fff3cd;
 }
