@@ -97,36 +97,35 @@
       <p>This is a testimonial. Replace this text with an actual customer review. - Customer 2</p>
     </section>
   </main>
-  <!-- This is the Contact Us section. It contains a form for visitors to send a message. -->
-  <section class="container my-5" id="contact-us">
-    <h2 class="text-center">Contact Us</h2>
-    <p>This is the Contact Us section. Replace this text with your actual content.</p>
-    <form>
-      <div class="mb-3">
-        <label class="form-label">Name</label>
-        <input class="form-control" type="text" />
-      </div>
-      <div class="mb-3">
-        <label class="form-label">Email</label>
-        <input class="form-control" type="text" />
-      </div>
-      <div class="mb-3">
-        <label class="form-label">Message</label>
-        <textarea class="form-control"></textarea>
-      </div>
-      <button class="btn btn-primary" type="submit">Submit</button>
-    </form>
-  </section>
-  <!-- Footer-->
-  <footer>
-    <div class="container text-center py-5">
-      <p>© 2023 Bulldogge Dumpsters</p>
+<!-- This is the Contact Us section. It contains a form for visitors to send a message. -->
+<section id="contact-us">
+  <h2 class="text-center">Contact Us</h2> <!-- Heading for the Contact Us section -->
+  <form method="POST"> <!-- Form for sending a message, using the POST method -->
+    <div class="mb-3">
+      <label for="name" class="form-label">Name:</label> <!-- Label for the Name input field -->
+      <input type="text" id="name" class="form-control" required autocomplete="name"/> <!-- Input field for the user's name -->
     </div>
-  </footer>
-  <!-- Bootstrap core JS-->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-  <!-- Core theme JS-->
-  <script src="js/scripts.js"></script>
+    <div class="mb-3">
+      <label for="email" class="form-label">Email:</label> <!-- Label for the Email input field -->
+      <input type="email" id="email" class="form-control" required autocomplete="email"/> <!-- Input field for the user's email -->
+    </div>
+    <div class="mb-3">
+      <label for="message" class="form-label">Message:</label> <!-- Label for the Message textarea field -->
+      <textarea id="message" class="form-control" required autocomplete="message"></textarea> <!-- Textarea field for the user's message -->
+    </div>
+    <button class="btn btn-primary" type="submit">Submit</button> <!-- Submit button for submitting the form -->
+  </form>
+</section>
+<!-- Footer section -->
+<footer class="container text-center py-5">
+  <!-- Copyright statement -->
+  <p>© 2023 Bulldogge Dumpsters</p>
+</footer>
+<!-- Bootstrap core JS - async script loading -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" async></script>
+
+<!-- Core theme JS - async script loading -->
+<script src="js/scripts.js" async></script>
 </body>
 
 </html>
