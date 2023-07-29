@@ -123,6 +123,13 @@ body {
   text-align: center;
   color: var(--text-color);
 }
+.container {
+  /* Add container styles here */
+}
+
+.text-center {
+  /* Add text centering styles here */
+}
 
 body {
   margin: 0;
