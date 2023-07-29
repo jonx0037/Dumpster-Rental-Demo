@@ -1,0 +1,5 @@
+{
+    "genieai.openai.maxTokens": 5000,
+    "genieai.openai.model": "gpt-4",
+    "genieai.enableConversationHistory": true
+}
